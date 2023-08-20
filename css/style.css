@@ -784,7 +784,7 @@ h3.my-profession
 }
 .service .service-item .service-item-inner
 {
-    background-color: var(--bg-black-100);
+    background-color: #ffff;
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
     padding: 30px 15px;
