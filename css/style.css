@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@900&family=Bebas+Neue&family=Gasoek+One&family=Lobster&display=swap');
 :root
 {
     --bg-black-900:#f2f2fc;
@@ -19,7 +21,7 @@ body
 {
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 *
 {
@@ -86,7 +88,7 @@ ul
     content: '';
     height: 4px;
     width: 50px;
-    background-color: #fc5185;
+    background-color: #e9311a;
     position: absolute;
     top: 100%;
     left: 0;
@@ -96,7 +98,7 @@ ul
     content: '';
     height: 4px;
     width: 25px;
-    background-color: #fc5185;
+    background-color: #e9311a;
     position: absolute;
     top: 100%;
     left: 0;
@@ -111,7 +113,8 @@ ul
     position: relative;
 }
 .btn
-{
+{   
+    font-family: 'Lobster', cursive;;
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
@@ -120,7 +123,7 @@ ul
     display: inline-block;
     white-space: nowrap;
     border: none;
-    background: #fc5185;
+    background: #e9311a;
     transition: all 0.3s ease;
 }
 .btn:hover
@@ -133,9 +136,10 @@ ul
 }
 /* aside */
 .aside
-{
+{   
+    font-family: 'Lobster', cursive;
     width: 270px;
-    background: #303a52;
+    background: #026c80;
     position: fixed;
     left: 0;
     top: 0;
@@ -177,8 +181,8 @@ ul
     position: absolute;
     width: 20px;
     height: 20px;
-    border-bottom: 5px solid #fc5185;
-    border-left: 5px solid #fc5185;
+    border-bottom: 5px solid #e9311a;
+    border-left: 5px solid #e9311a;
     bottom: 0;
     left: 0;
 }
@@ -188,9 +192,9 @@ ul
     position: absolute;
     width: 20px;
     height: 20px;
-    color: #fc5185;
-    border-top: 5px solid #fc5185;
-    border-right: 5px solid #fc5185;
+    color: #e9311a;
+    border-top: 5px solid #e9311a;
+    border-right: 5px solid #e9311a;
     top: 0;
     right: 0;
 }
@@ -257,7 +261,7 @@ ul
 }
 .aside .nav li a.active
 {
-    color: #22d1ee;
+    color: #ecae7d;
 }
 .aside .nav li a i
 {
@@ -269,7 +273,7 @@ ul
     min-height: 50vh;
     display: flex;
     color: var(--text-black-900);
-    background-color: #0e153a;
+    background-color: #064c72;
 }
 .home .home-info
 {
@@ -284,10 +288,10 @@ h3.hello
 }
 h3.hello span
 {
-    font-family: 'Clicker Script' , cursive;
+    font-family: 'Yesteryear' , cursive;
     font-size: 30px;
     font-weight: 700;
-    color: #22d1ee;
+    color: #ecae7d;
 }
 h3.my-profession
 {
@@ -297,7 +301,7 @@ h3.my-profession
 }
 .typing
 {
-    color: #22d1ee;
+    color: #ecae7d;
 }
 .home-info p
 {
@@ -356,7 +360,7 @@ h3.my-profession
 }
 .about .about-content .about-text h3 span
 {
-    color: #fc5185;
+    color: #e9311a;
 }
 .about .about-content .about-text p
 {
@@ -550,7 +554,7 @@ h3.my-profession
     content: '';
     height: 4px;
     width: 50px;
-    background-color: #fc5185;
+    background-color: #e9311a;
     position: absolute;
     top: 100%;
     left: 0;
@@ -559,7 +563,7 @@ h3.my-profession
     content: '';
     height: 4px;
     width: 25px;
-    background-color: #fc5185;
+    background-color: #e9311a;
     position: absolute;
     top: 100%;
     left: 0;
@@ -727,7 +731,7 @@ h3.my-profession
 }
 .skills-container .container-logo .ion-icon{
     color: #fff;
-    background-color: #22d1ee;
+    background-color: #ecae7d;
     padding: 15px 19px;
     font-size: 30px;
     border-radius: 30%;
@@ -767,7 +771,7 @@ h3.my-profession
 }
 /* service */
 .service{
-    background-color: #0e153a;
+    background-color: #064c72;
 }
 .service h2{
     color: #fff;
@@ -781,10 +785,11 @@ h3.my-profession
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+    
 }
 .service .service-item .service-item-inner
 {
-    background-color: #ffff;
+    background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
     padding: 30px 15px;
@@ -809,7 +814,7 @@ h3.my-profession
 {
     font-size: 40px;
     line-height: 60px;
-    color:#fc5185;
+    color:#ed6335;
     transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover .icon
@@ -874,7 +879,7 @@ h3.my-profession
 }
 
 .contact{
-    background-color: #0e153a;
+    background-color: #064c72;
 }
 .contact h2{
     color: #fff;
@@ -899,7 +904,7 @@ h3.my-profession
   .email-link {
     display: inline-flex;
     align-items: center;
-    color: #22d1ee;
+    color: #ecae7d;
     text-decoration: none;
     margin-right: 10px;
     font-size: 1.5rem; /* Increased font size */
@@ -927,7 +932,7 @@ menu {
     --padding: 1rem;
     --bg-color: rgba(255, 255, 255, 0.9);
     --fg-color: rgba(0, 0, 0, 0.7);
-    --hi-color: #22d1ee;
+    --hi-color: #ecae7d;
     
     position: fixed;
     bottom: 100px;
@@ -1033,7 +1038,7 @@ menu {
 
 #back-to-top-btn:hover {
     background-color: #fff;
-    color: #22d1ee;
+    color: #ecae7d;
      box-shadow: 0px 0px 0px 0.35rem rgba(0, 0, 0, 0.2);
 }
 .btnEntrance {
