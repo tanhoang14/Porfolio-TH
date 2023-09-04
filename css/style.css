@@ -769,25 +769,25 @@ h3.my-profession
 .container-box .containder-data a:hover {
     transform: scale(1.1);
 }
-/* service */
-.service{
+/* interest */
+.interest{
     background-color: #064c72;
 }
-.service h2{
+.interest h2{
     color: #fff;
 }
-.service .container
+.interest .container
 {
     padding-bottom: 40px;
 }
-.service .service-item
+.interest .interest-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     
 }
-.service .service-item .service-item-inner
+.interest .interest-item .interest-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -796,11 +796,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3S ease;
 }
-.service .service-item .service-item-inner:hover
+.interest .interest-item .interest-item-inner:hover
 {
     box-shadow:  0 0 20px rgba(48, 46, 77, 0.15);
 }
-.service .service-item .service-item-inner .icon 
+.interest .interest-item .interest-item-inner .icon 
 {
     height: 60px;
     width: 60px;
@@ -810,23 +810,23 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner .icon .fa
+.interest .interest-item .interest-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color:#ed6335;
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon
+.interest .interest-item .interest-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa
+.interest .interest-item .interest-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.service .service-item .service-item-inner h4
+.interest .interest-item .interest-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -834,7 +834,7 @@ h3.my-profession
     font-weight: 700;
     text-transform: capitalize;
 }
-.service .service-item .service-item-inner p
+.interest .interest-item .interest-item-inner p
 {
     font-size: 1rem;
     color: var(--text-black-700);
@@ -1152,7 +1152,7 @@ menu {
 {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
-    .service .service-item
+    .interest .interest-item
     {
         flex: 0 0 50%;
         max-width: 50%;
@@ -1172,7 +1172,7 @@ menu {
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
-    .service .service-item,
+    .interest .interest-item,
      .experience,
      .education,
      .skills,
