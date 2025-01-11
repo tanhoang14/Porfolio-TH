@@ -151,11 +151,15 @@ ul
     align-items: center;
     z-index: 10;
 }
+.aside-wrapper{
+    height: 80%;
+}
 .aside .logo
 {
     position: absolute;
     top: 50px;
     font-size: 30px;
+    margin-left: 30px;
     text-transform: capitalize;
 
 }
@@ -615,10 +619,6 @@ h3.my-profession
 }
 /* Styles for larger screens */
 @media (min-width: 768px) {
-    .logo {
-        margin-right: 10rem;
-    }
-    
     .details h3 {
         font-size: 1.5rem;
         margin-bottom: 2rem;
