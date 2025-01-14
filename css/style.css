@@ -1133,6 +1133,9 @@ menu {
     .aside .nav-toggler .open{
         left: 300px;
     }
+    .aside .logo a{
+        margin-left: 2rem;
+    }
     .section{
         left: 0;
     }
